@@ -18,9 +18,8 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           body: Container(
             child: Center(
-              child: Text(
-                "hello world!",
-                style: TextStyle(fontSize: 22),
+              child: Image(
+                image: AssetImage('assets/images/CatSouls.png'),
               ),
             ),
           ),
